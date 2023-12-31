@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/all.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <title></title>
+    </head>
+    <div
+      class="login-signup w-100 vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="login-box px-md-2 w-75 p-sm-5 rounded">
+        <div class="header text-center">
+          <h2
+            class="border text-primary pb-4 border-primary border-bottom border-4 border-top-0 border-start-0 border-end-0"
+          >
+            LOGIN
+          </h2>
+        </div>
+        <div class="inputs d-flex flex-column align-items-center">
+          <input
+            type="email"
+            class="form-control w-75 mb-3 mt-5 singin-email"
+            placeholder="Enter Your E-mail"
+          />
+          <input
+            type="password"
+            class="form-control w-75 mb-3 singin-password"
+            placeholder="Enter Your password"
+          />
+        </div>
+        <div class="btns d-flex flex-column align-items-center">
+          <button class="btn btn-outline-danger login">LOGIN</button>
+          <p class="text-white">
+            Don’t have an account?
+            <button class="btn me-0 ms-0 text-danger" id="signup">
+              SIGN UP
+            </button>
+          </p>
+        </div>
+      </div>
+      <div class="signup-box d-none px-md-2 w-75 p-sm-5 rounded">
+        <div class="header text-center">
+          <h2
+            class="border text-primary pb-4 border-primary border-bottom border-4 border-top-0 border-start-0 border-end-0"
+          >
+            SIGN UP
+          </h2>
+        </div>
+        <div class="inputs d-flex flex-column align-items-center">
+          <input
+            type="text"
+            class="form-control w-75 mb-3 mt-5 uesrname"
+            placeholder="Enter Your UesrName"
+          />
+          <input
+            type="email"
+            class="form-control w-75 mb-3 signup-email"
+            placeholder="Enter Your E-mail"
+          />
+          <input
+            type="password"
+            class="form-control w-75 mb-3 signup-password"
+            placeholder="Enter Your password"
+          />
+        </div>
+        <div class="btns d-flex flex-column align-items-center">
+          <h2 class="h4 text-danger d-none isInputsEmpty"></h2>
+          <button class="btn btn-outline-danger signUpBtn">SIGN UP</button>
+          <p class="text-white">
+            Do you have an account?
+            <button class="btn me-0 ms-0 text-danger" id="signIn">
+              SIGN IN
+            </button>
+          </p>
+        </div>
+      </div>
+      <div class="d-none text-center HomeBox">
+        <h1 class="text-white home">welcom</h1>
+        <button class="btn btn-outline-primary logOut">LOG OUT</button>
+      </div>
+    </div>
+  </head>
+  <body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

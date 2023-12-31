@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .signup-box,
+  .login-box {
+    width: 50% !important;
+  }
+}
+body {
+  background-image: url(../img/bg.jpg);
+}
+.signup-box,
+.login-box {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
